@@ -1,0 +1,6 @@
+framework module YLBFlutterDemo {
+  umbrella header "YLBFlutterDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,10 +6,17 @@
 //  Copyright (c) 2020 ProBobo. All rights reserved.
 //
 
+//@import UIKit;
+//
+//@interface YULIBOAppDelegate : UIResponder <UIApplicationDelegate>
+//
+//@property (strong, nonatomic) UIWindow *window;
+//
+//@end
+
 @import UIKit;
+@import Flutter;
 
-@interface YULIBOAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface YULIBOAppDelegate : FlutterAppDelegate // More on the FlutterAppDelegate below.
+@property (nonatomic,strong) FlutterEngine *flutterEngine;
 @end

@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7ECC54D8D8ABE4F363EE5291 /* Pods_YLBFlutterDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F11D1FA1765CF9FEC6526B3 /* Pods_YLBFlutterDemo_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BEC732D1244020E200D87DD7 /* YLBHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC732D0244020E200D87DD7 /* YLBHomeController.swift */; };
 		C118920ED7B2A74A6D8F8B42 /* Pods_YLBFlutterDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED76D0500B3ABEA55E1541 /* Pods_YLBFlutterDemo_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C06B31B55FEA4A96F577A9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C06B31B55FEA4A96F577A9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1E58A323321E2EE8C41AC5C2 /* Pods-YLBFlutterDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBFlutterDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLBFlutterDemo_Example/Pods-YLBFlutterDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2FED76D0500B3ABEA55E1541 /* Pods_YLBFlutterDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBFlutterDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F11D1FA1765CF9FEC6526B3 /* Pods_YLBFlutterDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBFlutterDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +61,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66B2AE413023C93CFD0B9A1E /* YLBFlutterDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLBFlutterDemo.podspec; path = ../YLBFlutterDemo.podspec; sourceTree = "<group>"; };
+		66B2AE413023C93CFD0B9A1E /* YLBFlutterDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBFlutterDemo.podspec; path = ../YLBFlutterDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AFC685D22FF2FEB67364038 /* Pods-YLBFlutterDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBFlutterDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLBFlutterDemo_Tests/Pods-YLBFlutterDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABFEED00D4EFF38482A6CE86 /* Pods-YLBFlutterDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBFlutterDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBFlutterDemo_Example/Pods-YLBFlutterDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BEC732CF244020E100D87DD7 /* YLBFlutterDemo_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLBFlutterDemo_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEC732D0244020E200D87DD7 /* YLBHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLBHomeController.swift; sourceTree = "<group>"; };
 		FF78DB18C2D6A69C0569FA8F /* Pods-YLBFlutterDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBFlutterDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLBFlutterDemo_Tests/Pods-YLBFlutterDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF7ABC2571335FA663744A5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF7ABC2571335FA663744A5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,7 @@
 		6003F593195388D20070C39A /* Example for YLBFlutterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEC732CE244020B900D87DD7 /* Mix */,
 				6003F59C195388D20070C39A /* YULIBOAppDelegate.h */,
 				6003F59D195388D20070C39A /* YULIBOAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +189,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		BEC732CE244020B900D87DD7 /* Mix */ = {
+			isa = PBXGroup;
+			children = (
+				BEC732D0244020E200D87DD7 /* YLBHomeController.swift */,
+				BEC732CF244020E100D87DD7 /* YLBFlutterDemo_Example-Bridging-Header.h */,
+			);
+			path = Mix;
+			sourceTree = "<group>";
+		};
 		DB789382AB95CAA67F1D23B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +206,6 @@
 				7AFC685D22FF2FEB67364038 /* Pods-YLBFlutterDemo_Tests.debug.xcconfig */,
 				FF78DB18C2D6A69C0569FA8F /* Pods-YLBFlutterDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +217,7 @@
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "YLBFlutterDemo_Example" */;
 			buildPhases = (
 				E2867C113078773E857F1AB4 /* [CP] Check Pods Manifest.lock */,
+				F9EE72C0E777251693E5D8C4 /* [CP-User] Run Flutter Build Script */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
@@ -244,10 +257,14 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = YULIBO;
+				CLASSPREFIX = YLB;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = ProBobo;
+				ORGANIZATIONNAME = "余礼钵";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M6Z7C5C7K3;
+						LastSwiftMigration = 1130;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +342,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YLBFlutterDemo_Example/Pods-YLBFlutterDemo_Example-frameworks.sh",
+				"${PODS_ROOT}/../../my_flutter/.ios/Flutter/engine/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/YLBFlutterDemo/YLBFlutterDemo.framework",
+				"${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBFlutterDemo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -357,6 +379,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F9EE72C0E777251693E5D8C4 /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../my_flutter/.metadata",
+				"${SRCROOT}/../my_flutter/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../my_flutter/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -366,6 +404,7 @@
 			files = (
 				6003F59E195388D20070C39A /* YULIBOAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YULIBOViewController.m in Sources */,
+				BEC732D1244020E200D87DD7 /* YLBHomeController.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,12 +533,17 @@
 			baseConfigurationReference = 1E58A323321E2EE8C41AC5C2 /* Pods-YLBFlutterDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLBFlutterDemo/YLBFlutterDemo-Prefix.pch";
 				INFOPLIST_FILE = "YLBFlutterDemo/YLBFlutterDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YLBFlutterDemo/Mix/YLBFlutterDemo_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +554,16 @@
 			baseConfigurationReference = ABFEED00D4EFF38482A6CE86 /* Pods-YLBFlutterDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLBFlutterDemo/YLBFlutterDemo-Prefix.pch";
 				INFOPLIST_FILE = "YLBFlutterDemo/YLBFlutterDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YLBFlutterDemo/Mix/YLBFlutterDemo_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -525,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFC685D22FF2FEB67364038 /* Pods-YLBFlutterDemo_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -550,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF78DB18C2D6A69C0569FA8F /* Pods-YLBFlutterDemo_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
